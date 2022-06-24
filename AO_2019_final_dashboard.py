@@ -41,14 +41,12 @@ def load_data():
     event_data = pd.read_csv('Aus Open Final 2019 - event data.csv')
     points_data = pd.read_csv('Aus Open Final 2019 - points data.csv')
     rally_data = pd.read_csv('Aus Open Final 2019 - rally data.csv')
-    ND_pic = Image.open('ND_pic.jpg')
-    RN_pic = Image.open('RN_pic.jpg')
     # Filter serves that are out
     serve_data = serve_data[(serve_data.x >= 1.4) & (serve_data.y > 5.5)].reset_index(drop = True)
     
-    return serve_data, event_data, points_data, rally_data, ND_pic, RN_pic
+    return serve_data, event_data, points_data, rally_data
 
-serve_data, event_data, points_data, rally_data, ND_pic, RN_pic = load_data()
+serve_data, event_data, points_data, rally_data = load_data()
 
 # ==========================================================
 # Data manipulation for SERVING data vis
