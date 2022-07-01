@@ -542,7 +542,6 @@ if add_sidebar == 'Home':
     t2.header("""
               Australian Open 2019 Final Analysis 
               \n By Ed Morris
-              \n 08/06/2022
               """)
     t2.markdown(""" **Twitter:** @datawithed 
                 \n **Instagram:** @data_with_ed
