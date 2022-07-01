@@ -659,7 +659,7 @@ However, this strategy is high risk. Taking the ball so early in the court means
                     \n- Djokovic executed a well planned trade-off on his bcross-court backhand; to hit deeper and more centrally rather than creating an angle to pull Nadal off-court. This lowered the margin for error that had significantly increased by taking the backhand on the rise, whilst simultaneously reducing the angles that Nadal could create on his forehand. 
                     \n- This can easily be seen in the exhibit as Nadal only hit one forehand wide of the outer tramline. 
                     \n- Djokovic managed to generate great angles on his cross-court forehand, working Nadal wide of the tramlines frequently on his backhand as seen in the exhibit.
-                    \n- Once again (particularly when considering Nadal and his fondness of running around his backhand to hit a forehand), we must remember that the average forehand location has a centralised bias. In particular, we can see a high concentration of forehands hit on the left-hand side and behind the centre of the court. The high concentration around the centre of the court agrees with our Djokovic hypothesis, where he has attempted to minimise the angles he concedes to the Nadal forehand by hitting centrally to this wing. This prevents Nadal from opening up the court as effectively as he would like, giving Djokovic more time to stabilise and pick his shots more effectively.
+                    \n- Once again, we must remember that the average forehand location has a centralised bias. 
                     """)
         st.markdown("Event level data from: https://www.kaggle.com/code/robseidl/australian-open-mens-final-2019-data-exploration/data")
     
