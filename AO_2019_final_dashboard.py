@@ -608,27 +608,29 @@ if add_sidebar == 'Baseline Analysis':
         e1, e2 = st.columns(2)
         e1.image(ND_baseline_depth_plot)
         e2.markdown("""
-                    The first thing to note in this exhibit is the difference in average depth of forehands versus backhands. The backhand is a shot that is typically targeted in tennis, Novak's counter to this has been to take the backhand on the rise and early in the court. He has employed this shot well against Nadal in the past, driving the backhand cross-court flat and hard into the Spaniard's forehand to put him on the back foot.
+                    - Firstly, the difference in average depth of forehands versus backhands is apparent. Since the backhand is typically targeted in tennis, Novak's counter to this has been to take the backhand on the rise and early in the court. 
+        - He has employed this well against Nadal previously, driving the backhand cross-court flat and deep into the Spaniard's forehand
                     \n There are a number of advantages for taking the backhand early: 
-1. This takes time away from the opponent to recover positionally from the previous shot, potentially leaving more court space open to attack 
-2. It allows you to dictate the baseline rally on both forehand and backhand side - stepping into the court gives you more angles of the court to use and allows you to play more aggressively
+1. It takes time away from the opponent to recover positionally from the previous shot, leaving more space open to attack 
+2. It allows you to dictate the rally on both forehand and backhand side - stepping into the court gives you more angles of the court to use and allows you to play more aggressively
     
 However, this strategy is high risk. Taking the ball so early in the court means the ball will likely always be on the rise, which is always harder to time than stepping back and hitting the ball as it falls.
-    \n The second point to note from this exhibit is the average depth of the forehands being deeper than that of the backhands. Intuitively, one would expect the forehand depth to be higher up the court, as this is typically a tennis player's stronger shot and one which tends to be used more aggressively. This can be explained by:
+    \n Secondly, the average depth of the forehands is deeper than the backhands. Intuitively, one would expect the forehand depth to be higher up the court, as this is typically the player's stronger shot and one which tends to be used more aggressively. This can be explained by:
 - On Nadal's width analysis, we can see the average backhand was played from much wider than his forehand
-- This is because Djokovic's topspin forehand is hit with more RPM than his backhand, allowing him to create greater angles cross-court (as noted above)
-- In order to utilise a high-topspin forehand to create angles, this is best done when the ball is falling rather than rising hence the average forehand is hit from deeper in the court than the backhand
+- This is because Djokovic's topspin forehand is hit with more RPM than his backhand, allowing him to create greater angles cross-court
+- To utilise a topspin-heavy forehand, this is best attempted when the ball is falling rather than rising, hence the forehand is hit from deeper in the court on average than the backhand
                     """)
         st.header('Width analysis')
         g1, g2 = st.columns(2)
         g1.image(ND_baseline_width_plot)
         g2.markdown("""
-                    As hypothesised on the 'depth' diagram, it is clear to see here that Djokovic's backhand is not only hit higher up into the court, but further wide than his forehand on the opposite side of the court. This can be attributed to Nadal's angle creation on his cross-court forehand - his topspin forehand can generate very high RPM (see below) allowing him to get the ball up over the net and back down into the court at tighter angles.
+                    It's clear to see that Djokovic's backhand is not only hit higher up into the court, but further wide than his forehand on the opposite side of the court. This can be attributed to Nadal's angle creation on his cross-court forehand - he can generate very high RPM (see below) allowing him to get the ball up over the net and back down into the court at tighter angles.
                     \n From this diagram it is clear to see that Nadal aimed to utilise this weapon in order to both: 
-- Draw Djokovic wide on the cross-court backhand to open up spaces to exploit elsewhere in the court
+- Draw Djokovic wide on the cross-court to open up spaces elsewhere in the court
 - Force Djokovic to either concede ground and hit the ball on the defensive, or take a difficult rising backhand
-                    \n It's also noticeable how central the average location of Djokovic's forehands are, only just into the deuce side of the court. However, before reading too much into this it is important to add some context to the forehand data - since players often run around their backhands to hit a forehand, there will inevitably be a more centralised bias when calculating the average forehand location, so it is important not to base any conclusions from this data without first considering the context.
-                    \n Given Nadal's strongest shots are his cross-court forehand and strategic use of his inside-out forehand, these were going to be crucial to his match strategy. Djokovic was able to nullify the cross-court forehands by stepping into the court and taking his backhands early, drilling them back cross-court, and Nadal couldn't create any consistent width with his backhands/inside-out forehands to stretch the Djokovic forehand.
+                    \n It's also noticeable how central the average location of Djokovic's forehands are, only just into the deuce side of the court. 
+        \n- However, before reading too much into this it is important to add some context to the forehand data - since players often run around their backhands to hit a forehand, there will inevitably be a more centralised bias when calculating the average forehand location, so it is important not to base any conclusions from this data without first considering the context.
+                    \n Given Nadal's strongest shots are his cross-court forehand and strategic use of his inside-out forehand, these were going to be crucial to his match strategy. Djokovic was able to nullify the cross-court forehands by stepping into the court and taking his backhands early, and Nadal couldn't create any consistent width with his backhands/inside-out forehands to stretch the Djokovic forehand.
                     """)
 
         st.markdown("Event level data from: https://www.kaggle.com/code/robseidl/australian-open-mens-final-2019-data-exploration/data")
