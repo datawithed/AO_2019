@@ -656,7 +656,7 @@ However, this strategy is high risk. Taking the ball so early in the court means
         f2.markdown("""
                     - This exhibit shows Nadal's average backhands were being hit from a wider position than his forehand. 
                     \n- The width analyses for both players have shown that they have applied the typical left-hander vs right-hander strategy; attacking the backhand with their forehand to open up the court with angles and draw a short ball. 
-                    \n- Djokovic executed a well planned trade-off on his bcross-court backhand; to hit deeper and more centrally rather than creating an angle to pull Nadal off-court. This lowered the margin for error that had significantly increased by taking the backhand on the rise, whilst simultaneously reducing the angles that Nadal could create on his forehand. 
+                    \n- Djokovic executed a well planned trade-off on his cross-court backhand; to hit deeper and more centrally rather than creating an angle to pull Nadal off-court. This lowered the margin for error that had significantly increased by taking the backhand on the rise, whilst simultaneously reducing the angles that Nadal could create on his forehand. 
                     \n- This can easily be seen in the exhibit as Nadal only hit one forehand wide of the outer tramline. 
                     \n- Djokovic managed to generate great angles on his cross-court forehand, working Nadal wide of the tramlines frequently on his backhand as seen in the exhibit.
                     \n- Once again, we must remember that the average forehand location has a centralised bias. 
@@ -714,11 +714,11 @@ if add_sidebar == 'Serve Analysis':
         col11.image(RN_serve_plot, use_column_width = True)
         col12.markdown("""
                        Aa few parallels can be drawn between the two players'; they employed a similar strategy on serve, by hitting a high percentage of serves down the T on both sides of the court to reduce angle creation, but not being afraid to hit a slice serve out wide into the opponent's backhand.
-                       \n- Firstly, we can compare with the Djokovic's serving exhibit the absolute number of first serves Nadal has hit; Nadal's is much more densely populated, from which we can infer that Nadal had to play far more points on his service games. Djokovic is widely regarded as one of the best returners on the tour, so this makes sense.
+                       \n- Firstly, we can compare with the Djokovic's serving exhibit the absolute number of first serves Nadal has hit; Nadal's is much more densely populated, from which we can infer that Nadal had to play far more points on his service games.
                        \n- On the deuce court, Nadal hit few first serves to the Djokovic forehand, trying to reduce the angle of return and hit to the weaker backhand side. He hit a high percentage of serves on this side to the body/backhand. 
-                       \n- As discussed, it isn't an orthodox singles tactic to hit frequent body serves (with the exception of big servers, Karlovic, Isner etc.), since a higher proportion of serves will be returned from this area. There are a few theories that could explain this even distribution of body and backhand serves:
-- Nadal was struggling to generate enough slice on his serves to pull them down the T and into the backhand side
-- This was purposeful in order to prevent the serves from becoming predictable, whilst preventing Djokovic from getting returns on his favoured forehand angle
+                       \nAs discussed, it isn't an orthodox singles tactic to hit frequent body serves (with the exception of big servers, Karlovic, Isner etc.), since a higher proportion of serves will be returned from this area. There are a few theories that could explain this even distribution of body and backhand serves:
+1. Nadal was struggling to generate enough slice on his serves to pull them down the T and into the backhand side
+2. This was purposeful in order to prevent the serves from becoming predictable, whilst preventing Djokovic from getting returns on his favoured forehand angle
                         \n- On the advantage court, Nadal hit a much more even distribution of serves. Keeping true to targetting the middle of the court, a solid number of serves were hit down the T. However, Nadal was much happier targetting the wide serve on this side of the court and accepting the trade-off between angle exposure and open court creation as a result.
                        """)
         st.markdown("Match data from: https://www.ultimatetennisstatistics.com/playerProfile?playerId=4920&tab=matches#matchStats-173429Serve")
