@@ -646,7 +646,7 @@ However, this strategy is high risk. Taking the ball so early in the court means
         \n- This has the added bonus of bringing Nadal to the net, and whilst he isn't a poor volleyer, it's definitely not his preferred area of the court. 
 \n- The drop shot is typically played when Nadal leaves a short ball on Djokovic's backhand - where he hits a short backhand slice down the line (as seen by the short balls in the service box)
                     \n- This exhibit provides evidence that Djokovic hit his backhand higher up the court, using a flat grip to drill the backhand deep to push Nadal back, whilst using the topspin forehand to create angles off-court. This is shown as the spread of forehands (red) is more vertical than the spread of backhands (blue).
-                    \n- In addition to this, Djokovic avoided opening the court on Nadal's forehand side which would have helped him create more angles with his forehand. From the exhibit, Nadal's forehands are spread more vertically than wide - again worth noting the forehands have a centralised bias due to inside-out/in shots.
+                    \n- In addition to this, Djokovic avoided opening the court on Nadal's forehand which would have helped him create more angles with his forehand. We can see, Nadal's forehands are spread more vertically than wide - again worth noting the forehands have a centralised bias due to inside-out/in shots.
                     \n In conclusion, Djokovic worked Nadal vertically up and down the court throughout the match, not allowing the Spaniard to get into a comfortable rhythm at the baseline and using the backhand to drive Nadal deep behind the baseline, creating opportunities for the drop shot.
                     """)
         
