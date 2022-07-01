@@ -714,7 +714,7 @@ if add_sidebar == 'Serve Analysis':
         col11.image(RN_serve_plot, use_column_width = True)
         col12.markdown("""
                        Aa few parallels can be drawn between the two players'; they employed a similar strategy on serve, by hitting a high percentage of serves down the T on both sides of the court to reduce angle creation, but not being afraid to hit a slice serve out wide into the opponent's backhand.
-                       \n- Firstly, we can compare with the Djokovic's serving exhibit the absolute number of first serves Nadal has hit; Nadal's is much more densely populated, from which we can infer that Nadal had to play far more points on his service games.
+                       \n- Firstly, we can compare with Djokovic's serving exhibit the absolute number of first serves Nadal hit; Nadal's is much more densely populated, from which we can infer that Nadal had to play far more points on his service games.
                        \n- On the deuce court, Nadal hit few first serves to the Djokovic forehand, trying to reduce the angle of return and hit to the weaker backhand side. He hit a high percentage of serves on this side to the body/backhand. 
                        \nAs discussed, it isn't an orthodox singles tactic to hit frequent body serves (with the exception of big servers, Karlovic, Isner etc.), since a higher proportion of serves will be returned from this area. There are a few theories that could explain this even distribution of body and backhand serves:
 1. Nadal was struggling to generate enough slice on his serves to pull them down the T and into the backhand side
