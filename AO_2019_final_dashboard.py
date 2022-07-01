@@ -547,6 +547,11 @@ if add_sidebar == 'Home':
     t2.markdown(""" **Twitter:** @datawithed 
                 \n **Instagram:** @data_with_ed
                 """)
+    st.markdown("""
+                **Navgating the dashboard:** 
+                \n- Use the arrow in the top left to open the sidebar
+                \n- Select a page from the drop-down bar to move between analyses    
+                """)
     st.markdown("Set up to be another classic Grand Slam final in Melbourne, Novak Djokovic was coming off the back of a fantastic 2018 season. The current holder of the previous two Slams, the current world number 1 and 6x Australian Open champion, the numbers seemed to be stacked in Novak's favour. However what no one anticipated was the manner in which he would go about claiming his 7th title in the Rod Laver arena.")
     st.markdown("Nadal, hitting a scintillating run of form in the tournament in his route to the final, hadn't dropped a single set and looked far and away the most likely candidate to cause an upset Down Under. He had spent significantly less time on court than Djokovic in his previous rounds, not letting his ankle surgery before the tournament hinder his play.")
     st.markdown('This dashboard will attempt to delve into some of the key stats, visualising where this tie was won and lost by both players.')
