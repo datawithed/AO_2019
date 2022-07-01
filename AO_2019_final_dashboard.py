@@ -609,7 +609,7 @@ if add_sidebar == 'Baseline Analysis':
         e1.image(ND_baseline_depth_plot)
         e2.markdown("""
                     - Firstly, the difference in average depth of forehands versus backhands is apparent. Since the backhand is typically targeted in tennis, Novak's counter to this has been to take the backhand on the rise and early in the court. 
-        \n- He has employed this well against Nadal previously, driving the backhand cross-court flat and deep into the Spaniard's forehand
+    \n- He has employed this well against Nadal previously, driving the backhand cross-court flat and deep into the Spaniard's forehand
                     \n There are a number of advantages for taking the backhand early: 
 1. It takes time away from the opponent to recover positionally from the previous shot, leaving more space open to attack 
 2. It allows you to dictate the rally on both forehand and backhand side - stepping into the court gives you more angles of the court to use and allows you to play more aggressively
