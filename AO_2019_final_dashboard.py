@@ -698,7 +698,6 @@ if add_sidebar == 'Serve Analysis':
 1. A lower first serve percentage
 2. Serves much closer to the service line
                         \n In addition to the above, Djokovic was able to maintain a very respectable 1st serve percentage and winning 80% of all points he started with a first serve. He outperformed his career average in both these areas significantly on the day as seen in the metrics above. 
-                        \n- This dominant serving performance resulted in Novak winning 100% of his service games
                        """)
         st.markdown("Match data from: https://www.ultimatetennisstatistics.com/playerProfile?playerId=4920&tab=matches#matchStats-173429Serve")
         st.markdown("Event level data from: https://www.kaggle.com/code/robseidl/australian-open-mens-final-2019-data-exploration/data")
