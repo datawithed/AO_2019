@@ -609,7 +609,7 @@ if add_sidebar == 'Baseline Analysis':
         e1.image(ND_baseline_depth_plot)
         e2.markdown("""
                     - Firstly, the difference in average depth of forehands versus backhands is apparent. Since the backhand is typically targeted in tennis, Novak's counter to this has been to take the backhand on the rise and early in the court. 
-        - He has employed this well against Nadal previously, driving the backhand cross-court flat and deep into the Spaniard's forehand
+        \n- He has employed this well against Nadal previously, driving the backhand cross-court flat and deep into the Spaniard's forehand
                     \n There are a number of advantages for taking the backhand early: 
 1. It takes time away from the opponent to recover positionally from the previous shot, leaving more space open to attack 
 2. It allows you to dictate the rally on both forehand and backhand side - stepping into the court gives you more angles of the court to use and allows you to play more aggressively
@@ -640,8 +640,10 @@ However, this strategy is high risk. Taking the ball so early in the court means
         f1, f2 = st.columns(2)
         f1.image(RN_baseline_depth_plot)
         f2.markdown("""
-                    Interestingly, Nadal's forehand and backhand contact points have almost identical average depths throughout the match. Nadal has a greater spread of shots, having more short balls inside the court but also playing more balls deep behind the baseline (often associated with passive or defensive play). 
-                    \n Typically, Djokovic will try to dominate the rallies by pushing Nadal deep behind the baseline, then mixing up the play by hitting drop shorts to disrupt his baseline rhythm. This has the added bonus of bringing Nadal to the net, and whilst he isn't a poor volleyer, it's definitely not his preferred area of the court. The drop shot is typically executed when Nadal leaves a shorter ball on Djokovic's backhand side - where he hits a backhand slice short and down the line to Nadal's backhand (as seen by the numerous short balls in the service box).
+                    - Interestingly, Nadal's forehand and backhand contact points have almost identical average depths throughout the match. 
+                    \n- Nadal has a greater spread of shots, having more short balls inside the court but also playing more balls deep behind the baseline (often associated with passive or defensive play)
+                    \n- Typically, Djokovic will try to dominate the rallies by pushing Nadal deep behind the baseline, then mixing up the play by hitting drop shots to disrupt his baseline rhythm. 
+        \n- This has the added bonus of bringing Nadal to the net, and whilst he isn't a poor volleyer, it's definitely not his preferred area of the court. The drop shot is typically executed when Nadal leaves a shorter ball on Djokovic's backhand side - where he hits a backhand slice short and down the line to Nadal's backhand (as seen by the numerous short balls in the service box).
                     \n This exhibit provides further evidence that Djokovic hit his backhand higher up the court, using a flatter grip to drill the backhand cross-court pushing Nadal back, whilst using the forehand with more topspin to create angles off the court to move Nadal out of position. This is shown as the spread of forehands (red) is more vertical than the spread of backhands (blue).
                     \n In addition to this, Djokovic made sure not to open up the court on Nadal's forehand side which would have assisted him in creating more angles with his forehand. As we can see in the exhibit, Nadal's spread of forehands are deeper behind the baseline rather than wide - again worth noting the forehands have a centralised bias due to inside-out/in shots.
                     \n In conclusion, Djokovic worked Nadal vertically up and down the court throughout the match, not allowing the Spaniard to get into a comfortable rhythm at the baseline and using the backhand (which Nadal was targeting) to drive Nadal deep behind the baseline on the forehand side, creating opportunities for the drop shot.
