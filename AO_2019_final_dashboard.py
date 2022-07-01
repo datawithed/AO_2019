@@ -754,7 +754,7 @@ if add_sidebar == 'Return Analysis':
                         This heatmap shows us the key positions both players were returning serve from. This allows us to both analyse where they were returning from and also shows us which side the server was attempting to attack when starting out the point.
                         \n- This heatmap doesn't align with the serve analysis plots - we noted that Djokovic used the wide serve to the Nadal backhand, it wasn't as frequent as the T serve to the forehand. These plots won't always align, since the serve analysis was only considering first serves of each player and doesn't tell us about the second serves. 
                         \n- Typically players will  hit serves to the opponent's weaker shot, usually the backhand. This appears to hold true here, as there is a dense concentration of returns hit from the backhand even though the number of first serves hit to this area wasn't particularly frequent.
-                        \n- There are three key areas of interest from this heatmap:
+                        \n There are three key areas of interest from this heatmap:
 1. The high concentration of returns above the right tramline (Nadal backhand side)
 2. The medium concentration of returns centrally, but deep behind the baseline
 3. The other medium concentration of returns centrally, but just on the baseline
