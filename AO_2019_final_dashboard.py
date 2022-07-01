@@ -691,13 +691,14 @@ if add_sidebar == 'Serve Analysis':
         col13, col14 = st.columns(2)
         col13.image(ND_serve_plot, use_column_width = True)
         col14.markdown("""
-                       This exhibit further shows how Djokovic looked to restrict the Nadal forehand angles, by hitting a higher percentage of serves at the forehand on the deuce court (down the T) and the Nadal backhand on the advantage court (down the T also). 
-                       \n Whilst he applied this strategy, he wasn't afraid to open the court up a bit more frequently on the deuce court, still employing a wide slice serve to the Nadal backhand to both keep Nadal guessing and attempt to open up the court just like with Djokovic's forehand.
-                       \n The body serve was only employed sporadically by Novak, which isn't surprising as the body serve doesn't generate the same gains as serving to either corner of the service box does in a singles match. If this was a doubles match, we might have seen a higher percentage of first serves targetting the body; this tactic usually offers up a "chipped" return which is easier to follow up with a volley, the trade-off being that the opponent will rarely be aced.
-                       \n Finally, we see that Djokovic wasn't pushing his serve to the limit very often since the serves (especially in the advantage court) are comfortably inside the lines. If Djokovic was pushing hard on his serve, we would have seen:
+                       - This exhibit shows how Djokovic looked to restrict Nadal's forehand angles, by hitting down the T on both sides of the court. 
+                       \n- Whilst applying this, he wasn't afraid to open the court up a bit more frequently on the deuce court, still employing a wide slice serve to the Nadal backhand to both keep Nadal guessing and attempt to open up the court like with his forehand.
+                       \n- The body serve was only employed sporadically by Novak, which isn't surprising as the body serve doesn't generate the same gains in a singles match. This is a more common practice in doubles matches; this tactic usually offers up a "chipped" return which is easier to follow up with a volley.
+                       \n- Finally, we see that Djokovic wasn't pushing his serve to the limit very often since the serves (especially in the advantage court) are comfortably inside the lines. If Djokovic was pushing hard on his serve, we would have seen:
 1. A lower first serve percentage
 2. Serves much closer to the service line
-                        \n In addition to the above, Djokovic was able to maintain a very respectable 1st serve percentage and winning 80% of all points he started with a first serve. He outperformed his career average in both these areas significantly on the day, making it hard for Nadal to get a foothold in the rallies by consistently having to return 1st serves. This dominant serving performance resulted in Novak seeing out all his service games as the victor, a remarkable feat against not only one of his fiercest rivals, but one of the greatest players of all time.
+                        \n In addition to the above, Djokovic was able to maintain a very respectable 1st serve percentage and winning 80% of all points he started with a first serve. He outperformed his career average in both these areas significantly on the day, making it hard for Nadal to get a foothold in the rallies by consistently having to return 1st serves. 
+                        \n- This dominant serving performance resulted in Novak winning 100% of his service games
                        """)
         st.markdown("Match data from: https://www.ultimatetennisstatistics.com/playerProfile?playerId=4920&tab=matches#matchStats-173429Serve")
         st.markdown("Event level data from: https://www.kaggle.com/code/robseidl/australian-open-mens-final-2019-data-exploration/data")
