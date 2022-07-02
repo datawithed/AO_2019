@@ -29,7 +29,7 @@ from PIL import Image
 from plotly.offline import iplot
 import seaborn as sns
 
-st.set_page_config(page_title = 'AO2019 Final Analysis', layout = 'wide', page_icon = Image.open('AO_logo.jpg'))
+st.set_page_config(page_title = 'AO2019 Final Analysis', layout = 'wide', page_icon = Image.open('AO_logo.jpg'), initial_sidebar_state = 'expanded')
 
 
 @st.cache
